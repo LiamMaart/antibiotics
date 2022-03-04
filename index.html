@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Antibiotics</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Demo project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="tob-bar">
+  <h1>Why people should research more about antibiotics consumption.</h1>
+</div>
+
+<div class="content">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/Anti1.jpg" style="width:100%">
+  <div class="text">Don't overuse</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/Anti2.jpg" style="width:100%">
+  <div class="text">Conslut Doctor first!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/Anti3.jpg" style="width:100%">
+  <div class="text">Besties!</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+</div>
+
+    Antibiotics play a critical function in keeping the general population healthy. By avoiding the spread of hazardous microorganisms, it has saved and continues to save countless lives. Antibiotics are one of the most important medical discoveries of all time. Penicillin was discovered by Alexander Fleming in the 1920s, and he is famous for it. He did it unintentionally, but after he realized what he'd done, antibiotics spread like wildfire over the globe. Antibiotics are still well-known for their ability to combat virtually any illness. Most antibiotic classes that we use today as medicines were discovered and introduced to the market by scientists.
+    <ul>
+      Why is antibiotics good?
+
+      Antibiotics are pharmaceuticals that are used to treat bacterial illnesses in humans. They function by either killing germs or making it difficult for them to survive and spread. Antibiotics can be taken in a variety of ways, including using your mouth. This might be in the form of tablets, capsules, or liquids. This invention brought huge change in today’s humankind lifestyle as it protects humans from failing to survive. The discovery of antibiotics in the 1920s revolutionized medicine, lengthening lives and allowing for the creation of novel medical therapies. Antibiotics increased human life expectancy by over twenty years almost instantly. 
+      
+      
+    </ul>
+
+    Antibiotics were so prevalent that everyone on the planet was exposed to them at some time. The invention of antibiotics has contributed to human’s lifestyle by allowing us and factors that promote our survival to develop and fight illnesses. The medication allows all living spices changes to expand their life on earth as the invention made life easier for us. Humans’ lifestyle changed and developed with the help of new medications that today has been altered and modified to be use not only in medication but in food and environmental aspects on planet earth.  <button>read less</button>
+
+
+
+<div class="footer">
+  
+  
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X1GT2bKgci8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="sticky">Always research before taking any pills</div>
+</body>
+</html>
